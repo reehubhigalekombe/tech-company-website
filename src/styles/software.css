@@ -1,0 +1,109 @@
+.software {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+.top {
+    flex: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+.top .heda {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+.top .paragraph {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.middle {
+    flex: 1;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: lightskyblue;
+    padding-left: 70px;
+    padding-right: 30px;
+    margin: 0px;
+    align-items: center;
+
+}
+.middle .col {
+    flex: 1;
+}
+.middle .col img {
+    width: 70%;
+    border-radius: 50px;
+    margin-top: 20px;
+    
+    
+}
+.middle h1 {
+    color: black;
+}
+
+.bottom {
+    flex: 1;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+
+}
+
+.button {
+    margin-top: 60px;
+    text-align: center;
+    align-items: center;
+    
+}
+.button button {
+    margin:  20px;
+    padding: 16px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+    color: black;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    background-color: silver;
+}
+.button button:hover {
+    box-shadow: 0 0 20px rgba(102, 0, 255, 0.6), 
+                    0 0 30px rgba(50, 7, 167, 0.4), 
+                    0 0 40px rgba(38, 3, 102, 0.2);
+    transform: scale(1.05);
+}
+.burron {
+    padding: 16px 30px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    border: none;
+}
+.burron:hover {
+    box-shadow: 0 0 20px rgb(212, 12, 12),
+    0 0 30px rgb(212, 12, 12),
+    0 0 40px rgb(222, 28, 28);
+    transform:  scale(1.15);
+}
+.reshape {
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}

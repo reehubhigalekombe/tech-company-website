@@ -1,0 +1,77 @@
+.partnership {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+.partner-pat {
+    width: 100%;
+}
+.top {
+    flex: 2;
+}
+.top h1 {
+    color: red;
+    font-size: 28px;
+}
+.top p {
+    color: black;
+    font-size: 18px;
+}
+.top ul {
+    list-style-type: none;
+}
+.top ul li {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.bottom .bota {
+    flex: 1;
+    
+    
+}
+.bottom .bott {
+    flex: 1;
+    
+    
+}
+.bottom ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    
+}
+.bottom ul li {
+    margin: 20px
+    
+}
+.buttoni {
+    padding: 16px 30px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 18px;
+    border: none;
+}
+.buttoni:hover {
+    box-shadow: 0 0 20px rgba(242, 8, 8, 0.6), 
+    0 0 30px rgba(249, 24, 24, 0.4), 
+    0 0 40px rgba(237, 30, 30, 0.2);
+  transform: scale(1.15);
+}
+.bottom a:hover {
+    box-shadow: 0 0 20px rgba(5, 19, 215, 0.6), 
+    0 0 30px rgba(7, 34, 234, 0.4), 
+    0 0 40px rgba(26, 12, 228, 0.2);
+  transform: scale(2.00);
+} 
